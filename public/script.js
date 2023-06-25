@@ -4264,7 +4264,6 @@ function changeMainAPI() {
         getHordeModels();
     }
 
-    console.log(oai_settings.chat_completion_source)
     switch (oai_settings.chat_completion_source) {
         case chat_completion_sources.OPENAI:
             console.log('Setting up OpenAI prompt manager');
