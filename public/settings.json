@@ -199,6 +199,7 @@
             "showDefault": false
         },
         "dice": {},
+        "regex": [],
         "tts": {
             "voiceMap": "",
             "ttsEnabled": false,
@@ -241,7 +242,33 @@
         "quickReply": {
             "quickReplyEnabled": false,
             "numberOfSlots": 5,
-            "quickReplySlots": []
+            "quickReplySlots": [
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                }
+            ]
         }
     },
     "context_settings": {
@@ -763,5 +790,6 @@
     "legacy_streaming": false,
     "chat_completion_source": "openai",
     "max_context_unlocked": false,
-    "use_openrouter": false
+    "use_openrouter": false,
+    "api_url_scale": ""
 }
