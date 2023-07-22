@@ -924,6 +924,7 @@
         5,
         6
     ],
+    "preset_settings_openai": "undefined1",
     "temp_openai": "0.9",
     "freq_pen_openai": 0.7,
     "pres_pen_openai": 0.7,
@@ -970,9 +971,9 @@
     "windowai_model": "",
     "openrouter_model": "google/palm-2-chat-bison",
     "jailbreak_system": true,
-    "reverse_proxy": "",
+    "reverse_proxy": "https://benchmark-finished-bacterial-corps.trycloudflare.com/v2/driver/sage",
     "legacy_streaming": false,
-    "chat_completion_source": "openrouter",
+    "chat_completion_source": "openai",
     "max_context_unlocked": false,
     "api_url_scale": ""
 }
