@@ -1,12 +1,12 @@
 {
     "username": "You",
-    "api_server": "",
+    "api_server": "http://127.0.0.1:5000/api",
     "api_server_textgenerationwebui": "",
     "preset_settings": "gui",
     "user_avatar": "you.png",
     "amount_gen": 80,
     "max_context": 2048,
-    "main_api": "openai",
+    "main_api": "kobold",
     "world_info": {
         "globalSelect": [
             "Sion City"
@@ -51,7 +51,10 @@
     },
     "swipes": true,
     "horde_settings": {
-        "models": [],
+        "models": [
+            "PygmalionAI/pygmalion-6b",
+            "PygmalionAI/pygmalion-7b"
+        ],
         "auto_adjust_response_length": true,
         "auto_adjust_context_length": false,
         "trusted_workers_only": false
@@ -87,7 +90,7 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": false,
         "confirm_message_delete": true,
-        "sort_field": "date_added",
+        "sort_field": "date_last_chat",
         "sort_order": "desc",
         "sort_rule": null,
         "font_scale": 1,
@@ -897,6 +900,7 @@
         5,
         6
     ],
+    "can_use_streaming": false,
     "preset_settings_openai": "undefined",
     "temp_openai": "0.9",
     "freq_pen_openai": 0.7,
@@ -944,7 +948,7 @@
     "windowai_model": "",
     "openrouter_model": "google/palm-2-chat-bison",
     "jailbreak_system": true,
-    "reverse_proxy": "http://localhost:3000/v2/driver/sage",
+    "reverse_proxy": "https://ati-calls-sell-cpu.trycloudflare.com/v2/driver/sage",
     "legacy_streaming": false,
     "chat_completion_source": "openai",
     "max_context_unlocked": false,
