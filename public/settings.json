@@ -6,10 +6,10 @@
     "user_avatar": "you.png",
     "amount_gen": 80,
     "max_context": 2048,
-    "main_api": "kobold",
+    "main_api": "openai",
     "world_info": {
         "globalSelect": [
-            "Sion City"
+            "Castra Nova"
         ]
     },
     "world_info_depth": 2,
@@ -80,8 +80,8 @@
         "multigen_next_chunks": 30,
         "custom_chat_separator": "",
         "markdown_escape_strings": "",
-        "fast_ui_mode": false,
-        "avatar_style": 1,
+        "fast_ui_mode": true,
+        "avatar_style": 0,
         "chat_display": 0,
         "chat_width": 50,
         "never_resize_avatars": false,
@@ -94,7 +94,7 @@
         "sort_order": "desc",
         "sort_rule": null,
         "font_scale": 1,
-        "blur_strength": 3,
+        "blur_strength": 10,
         "shadow_width": 2,
         "main_text_color": "rgba(220, 220, 210, 1)",
         "italics_text_color": "rgba(145, 145, 145, 1)",
@@ -148,7 +148,8 @@
         "persona_description": "",
         "persona_description_position": 0,
         "custom_stopping_strings": "",
-        "sheld_width": 0
+        "sheld_width": 0,
+        "charListGrid": false
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
@@ -867,7 +868,11 @@
         "#76.png": [],
         "Barbara.png": [],
         "Emma Frost.png": [],
-        "Fuyuko Yamada.png": []
+        "Fuyuko Yamada.png": [],
+        "Emperor Decimus Aurelius.png": [],
+        "Valeria Octavia.png": [],
+        "Flora Vespera.png": [],
+        "1690319401613": []
     },
     "temp_novel": 0.5,
     "rep_pen_novel": 1,
@@ -900,16 +905,15 @@
         5,
         6
     ],
-    "can_use_streaming": false,
     "preset_settings_openai": "undefined",
-    "temp_openai": "0.9",
+    "temp_openai": "1",
     "freq_pen_openai": 0.7,
     "pres_pen_openai": 0.7,
     "top_p_openai": 1,
     "top_k_openai": 0,
     "stream_openai": false,
     "openai_max_context": 4095,
-    "openai_max_tokens": 300,
+    "openai_max_tokens": 1000,
     "nsfw_toggle": true,
     "enhance_definitions": false,
     "wrap_in_quotes": false,
@@ -946,11 +950,11 @@
     "openai_model": "gpt-3.5-turbo",
     "claude_model": "claude-instant-v1",
     "windowai_model": "",
-    "openrouter_model": "google/palm-2-chat-bison",
+    "openrouter_model": "openai/gpt-3.5-turbo",
     "jailbreak_system": true,
     "reverse_proxy": "https://ati-calls-sell-cpu.trycloudflare.com/v2/driver/sage",
     "legacy_streaming": false,
-    "chat_completion_source": "openai",
+    "chat_completion_source": "openrouter",
     "max_context_unlocked": false,
     "api_url_scale": ""
 }
