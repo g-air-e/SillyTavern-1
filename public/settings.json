@@ -9,7 +9,7 @@
     "main_api": "openai",
     "world_info": {
         "globalSelect": [
-            "Sion City"
+            "Castra Nova"
         ]
     },
     "world_info_depth": 2,
@@ -879,7 +879,8 @@
         "undefined": [],
         "Shinobu Kocho.png": [],
         "Sini.png": [],
-        "Angela Delacourt.png": []
+        "Angela Delacourt.png": [],
+        "Mala the Dominant.png": []
     },
     "temp_novel": 0.5,
     "rep_pen_novel": 1,
