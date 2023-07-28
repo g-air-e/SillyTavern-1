@@ -9,7 +9,7 @@
     "main_api": "openai",
     "world_info": {
         "globalSelect": [
-            "Castra Nova"
+            "Sion City"
         ]
     },
     "world_info_depth": 2,
